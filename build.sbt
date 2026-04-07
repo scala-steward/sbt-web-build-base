@@ -16,8 +16,8 @@ developers += Developer(
 crossScalaVersions := Seq("2.12.21", "3.8.3")
 ThisBuild / (pluginCrossBuild / sbtVersion) := {
   scalaBinaryVersion.value match {
-    case "2.12" => "1.12.4"
-    case _      => "2.0.0-RC10"
+    case "2.12" => "1.12.9"
+    case _      => "2.0.0-RC11"
   }
 }
 
