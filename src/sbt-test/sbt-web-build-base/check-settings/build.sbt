@@ -11,5 +11,5 @@ TaskKey[Unit]("testSettings") := {
   assertEquals(licenses.value.size, 1)
 }
 
-addSbtJsEngine("1.4.0-M1")
-addSbtWeb("1.6.0-M1")
+addSbtJsEngine("1.4.0-M4")
+addSbtWeb("1.6.0-M4")
